@@ -6,5 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="dzxv"/>
+	<classpathentry kind="src" path="q"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

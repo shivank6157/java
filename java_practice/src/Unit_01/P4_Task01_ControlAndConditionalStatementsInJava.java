@@ -4,8 +4,8 @@ package Unit_01;
  # Control statements and conditional statements
  - Java provide 3 types of control flow
  - decision making statements
- - if statements
- - switch statements
+    - if statements
+    - switch statements
  
  - Loop statements
    -do while loop
@@ -30,6 +30,7 @@ public class P4_Task01_ControlAndConditionalStatementsInJava {
 	}
 
 }
+
 class Statements{
 	 void DecisionmakingStatements() {
 		 int x=10;
@@ -40,7 +41,7 @@ class Statements{
 		 else {
 			 System.out.println("x + y is greater than 20");
 		 }
-		 int num=2;
+		 int num=1;
 		 //can we use char instead of int as num ?  
 		 switch(num) { //switch(expression)
 		 case 0:  //case value:
@@ -62,7 +63,8 @@ class Statements{
 	 */
 		 //FOR LOOP
 		 int sum=0;
-		 for(int j=1; j<=10; j++) {
+		 for(int j=1; j<=10; j++) 
+		 {
 			 sum=sum+j;
 		 }
 		 System.out.println("The sum of first 10 natural numbers is = " + sum);

@@ -8,7 +8,7 @@ public class P2_Task01_KeywordsInJava
 		//variable name
 		//invalid varible name using double as variable while double is a keyword
 		int double=12;
-		
+	
 		//function name
 		int new()
 		{
